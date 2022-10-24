@@ -1,0 +1,1 @@
+errays and pointers
