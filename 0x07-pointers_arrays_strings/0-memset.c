@@ -5,6 +5,7 @@
  * @s: memory area
  * @b: bytes
  * @n: number of bytes
+ *
  * Return: pointer to s
  */
 char *_memset(char *s, char b, unsigned int n)
@@ -13,7 +14,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 	for (a = 0; a < n; a++)
 	{
-		s[a] = b;
+		s[a] = bb;
 	}
 
 	return (s);
