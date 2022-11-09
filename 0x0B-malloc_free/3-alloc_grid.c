@@ -6,7 +6,7 @@
  * @height: height
  * Return: pointer to array
  */
-int *alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int freenum;
 	int x;
